@@ -1,0 +1,2513 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  info [
+    "Example use of a Display device."
+  ]
+  title "Display"
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.997505194656156 0.049916864054068415 0.0499168640540684 4.709891060426032
+  position -0.019853634037368777 9.941768742777285 0.4520421673444715
+}
+TexturedBackground {
+  texture "empty_office"
+}
+TexturedBackgroundLight {
+}
+SolidBox {
+  translation 2.005 0.05 0
+  name "wall 1"
+  size 0.01 0.1 4
+  appearance DEF SQUARE_ARENA_APPEARANCE_A PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/metal.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+    textureTransform TextureTransform {
+      scale 2 2
+    }
+  }
+}
+SolidBox {
+  translation -1.975 0.05 0
+  name "wall 2"
+  size 0.01 0.1 4
+  appearance USE SQUARE_ARENA_APPEARANCE_A
+}
+SolidBox {
+  translation 0 0.05 1.975
+  name "wall 3"
+  size 4 0.1 0.01
+  appearance DEF SQUARE_ARENA_APPEARANCE_B PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/metal.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+    textureTransform TextureTransform {
+      scale 2.04 2.04
+    }
+  }
+}
+SolidBox {
+  translation 0 0.05 -1.995
+  name "wall 4"
+  size 4 0.1 0.01
+  appearance USE SQUARE_ARENA_APPEARANCE_B
+}
+DEF BOX3 Solid {
+  translation -0.828255 0.05 0.494446
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(3)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.82029 0.05 0.559179
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(88)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.61033 0.05 0.564533
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(89)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.141025 0.05 0.611998
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(4)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.0889018 0.05 0.617862
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(19)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.128889 0.05 0.618882
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(21)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.119902 0.05 1.35275
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(58)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.399817 0.05 1.34574
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(60)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.132366 0.05 1.6593
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(61)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.42343 0.05 1.63192
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(65)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.44342 0.05 1.63242
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(66)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.21346 0.05 1.62663
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(87)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.529897 0.05 1.36911
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(67)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.41993 0.05 1.36636
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(68)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.129295 0.05 0.152136
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(6)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.30897 0.05 0.12205
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(52)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.160614 0.05 0.159531
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(7)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.460524 0.05 0.167181
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(8)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.848471 0.05 1.03729
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(30)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.558561 0.05 1.03001
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(31)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.101236 0.05 1.01343
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(32)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.311173 0.05 1.00817
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(33)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.02327 0.05 -0.12195
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 2.8
+      }
+    }
+  ]
+  name "box 3(39)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.601085 0.05 1.00089
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(34)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.791027 0.05 0.996051
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(35)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.07097 0.05 0.988911
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(36)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.35097 0.05 0.981771
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(37)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.53094 0.05 0.977183
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(38)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.18343 0.05 0.455713
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(76)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.42342 0.05 0.461833
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(77)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.861513 0.05 0.527531
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(22)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.81124 0.05 0.951885
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(78)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.83479 0.05 0.0221729
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(80)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.57481 0.05 0.0155481
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(81)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.54126 0.05 0.945001
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(79)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.482192 0.05 -0.682556
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(12)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.752111 0.05 -0.675671
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(24)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.852081 0.05 -0.673121
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(96)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.42342 0.05 0.461833
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(23)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.38317 0.05 -1.49991
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(48)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.20318 0.05 -1.50442
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(41)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.873287 0.05 -1.51275
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(71)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.322239 0.05 -0.686637
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(13)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.118184 0.05 -1.0679
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 1.5
+      }
+    }
+  ]
+  name "box 3(40)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.121395 0.05 -0.157764
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(17)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.02883 0.05 -0.27094
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(20)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.977929 0.05 -1.08994
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(45)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.26788 0.05 -1.09724
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(90)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.43781 0.05 -1.10155
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(91)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.748911 0.05 -0.2638
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(27)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.606059 0.05 -1.55071
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(18)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.416118 0.05 -1.54592
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(29)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.0862194 0.05 -1.53761
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(50)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.0937227 0.05 -1.53309
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(51)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.32858 0.05 -0.678723
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(55)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.14861 0.05 -0.674133
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(56)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.424045 0.05 -0.363929
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(69)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.285049 0.05 0.768392
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(1)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.668303 0.05 0.498526
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(5)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.584057 0.05 0.0302832
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(9)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.532005 0.05 1.82267
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(57)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.975038 0.05 1.15109
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(82)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.982431 0.05 1.44101
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(83)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.48226 0.05 1.81851
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(84)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.47523 0.05 1.53854
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(85)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.006249 0.05 1.50608
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(59)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.0057394 0.05 1.52608
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(64)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.41715 0.05 1.10186
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(94)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.62676 0.05 1.5173
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(95)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.591197 0.05 -0.24963
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(10)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.240886 0.05 -0.570948
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(15)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.245731 0.05 -0.381005
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(16)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.595625 0.05 -0.389929
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(25)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.653716 0.05 0.318832
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(28)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.592055 0.05 -0.529887
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(26)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.585427 0.05 -0.789806
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(92)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.582877 0.05 -0.889776
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(93)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.45512 0.05 -0.421855
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(53)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -1.45312 0.05 -0.501831
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(54)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.228501 0.05 -1.84116
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(44)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.232835 0.05 -1.67118
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(43)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.254974 0.05 -1.57889
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(47)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.52974 0.05 -1.35659
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(72)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.52291 0.05 -1.08665
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(73)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.51634 0.05 -0.82673
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(74)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 1.51088 0.05 -0.606792
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(75)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation 0.252678 0.05 -1.48891
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(70)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+}
+DEF BOX3 Solid {
+  translation -0.287345 0.05 0.858366
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.3
+      }
+    }
+  ]
+  name "box 3(2)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+  translationStep 0.24
+}
+DEF BOX3 Solid {
+  translation -1.18588 0.05 -1.56529
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.9
+      }
+    }
+  ]
+  name "box 3(46)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+  translationStep 0.24
+}
+DEF BOX3 Solid {
+  translation -1.18588 0.05 -1.56529
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.9
+      }
+    }
+  ]
+  name "box 3(11)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+  translationStep 0.24
+}
+DEF BOX3 Solid {
+  translation -1.18588 0.05 -1.56529
+  rotation 0 -1 0 -1.5453153071795862
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.9
+      }
+    }
+  ]
+  name "box 3(14)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+  translationStep 0.24
+}
+DEF BOX3 Solid {
+  translation -0.250655 0.05 -0.581164
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.9
+      }
+    }
+  ]
+  name "box 3(42)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+  translationStep 0.24
+}
+DEF BOX3 Solid {
+  translation -1.46862 0.05 0.108027
+  rotation 0 1 0 3.11611
+  children [
+    Shape {
+      appearance DEF YELLOW_APPEARANCE PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GEOM2 Box {
+        size 0.05 0.1 0.9
+      }
+    }
+  ]
+  name "box 3(49)"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1
+      metalness 0
+    }
+    geometry USE GEOM2
+  }
+  translationStep 0.24
+}
+DEF MYBOT Robot {
+  translation 0.25001155550548715 -0.0002501486788906229 1.0354402346241989
+  rotation 0.0354334649009594 0.9993516018170602 0.0063910492713001735 -0.3237506842593884
+  children [
+    Transform {
+      translation 0 0.0415 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.0820075 0.364731 0.8
+            roughness 1
+            metalness 0
+          }
+          geometry DEF BODY Cylinder {
+            height 0.08
+            radius 0.045
+          }
+        }
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 296743.7490992025
+        axis -1 0 0
+        anchor 0 0.025 0
+      }
+      device [
+        RotationalMotor {
+          name "left wheel motor"
+          consumptionFactor 70
+        }
+        PositionSensor {
+          name "left wheel sensor"
+        }
+      ]
+      endPoint Solid {
+        translation -0.04499999999999953 0.025 0
+        rotation 1 0 0 3.5112582749978354
+        children [
+          DEF WHEEL Transform {
+            rotation 0 0 1 1.57
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "left wheel"
+        boundingObject USE WHEEL
+        physics DEF PHYSICS_WHEEL Physics {
+          density -1
+          mass 0.05
+        }
+        linearVelocity 0.0288944043705952 -2.0205293578201924e-05 -0.08417404806925351
+        angularVelocity -3.3652639037116687 0.06351889894834128 -1.1512726234477477
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 300730.00700095284
+        axis -1 0 0
+        anchor 0 0.025 0
+      }
+      device [
+        RotationalMotor {
+          name "right wheel motor"
+          consumptionFactor 70
+        }
+        PositionSensor {
+          name "right wheel sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.04499999999999946 0.025 0
+        rotation 1 0 0 0.3955212765253073
+        children [
+          USE WHEEL
+        ]
+        name "right wheel"
+        boundingObject USE WHEEL
+        physics USE PHYSICS_WHEEL
+        linearVelocity 0.03074845262944574 -1.2440690608427917e-05 -0.09061524655259781
+        angularVelocity -3.6386252756317807 0.07288326248688076 -1.2347853360427499
+      }
+    }
+    DistanceSensor {
+      translation -0.02 0.063 -0.042
+      rotation 0 1 0 2.07
+      children [
+        DEF SENSOR Transform {
+          rotation 0 0 1 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.975691 0.981481 0.0252992
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ds0"
+      lookupTable [
+        0 1024 0
+        0.05 1024 0
+        0.15 0 0
+      ]
+      numberOfRays 4
+      aperture 1.3
+    }
+    DistanceSensor {
+      translation 0.02 0.063 -0.042
+      rotation 0 1 0 1.07
+      children [
+        USE SENSOR
+      ]
+      name "ds1"
+      lookupTable [
+        0 1024 0
+        0.05 1024 0
+        0.15 0 0
+      ]
+      numberOfRays 4
+      aperture 1.3
+    }
+    Camera {
+      translation 0 0.0915 -0.04
+      rotation 0 0 -1 0
+      children [
+        Transform {
+          translation 0 0 0.015
+          rotation 1 0 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.03
+                radius 0.01
+              }
+            }
+          ]
+        }
+      ]
+      fieldOfView 1.047
+      width 256
+      height 128
+    }
+    DEF CAMERA Display {
+      name "camera_display"
+      width 256
+      height 128
+    }
+  ]
+  name "MyBot"
+  boundingObject Transform {
+    translation 0 0.0415 0
+    children [
+      USE BODY
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 0.5
+  }
+  controller "display"
+  linearVelocity 0.028941458281777258 -1.4114040753068367e-05 -0.08483585684332447
+  angularVelocity 0.14909170340506267 0.06610568828714053 0.05099394412686627
+}
+Robot {
+  scale 2 2 2
+  children [
+    DEF GROUND Display {
+      scale 2 2 2
+      children [
+        DEF SHAPE Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/white256.png"
+              ]
+              filtering 0
+            }
+            roughness 1
+            metalness 0
+          }
+          geometry Plane {
+          }
+        }
+      ]
+      name "ground_display"
+      boundingObject USE SHAPE
+    }
+  ]
+  controller "display_supervisor"
+  supervisor TRUE
+}
